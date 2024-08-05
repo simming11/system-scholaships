@@ -8,18 +8,6 @@ const nextConfig = {
           destination: '/page/scholarships', // Redirect to the scholarships page
         },
         {
-          source: '/page/application/create/external',
-          destination: '/page/application/create/external', // Redirect to the scholarships page
-        },
-        {
-          source: '/page/scholarships/create/internal',
-          destination: '/page/scholarships/create/internal', // Redirect to the create page
-        },
-        {
-          source: '/page/scholarships/create/external',
-          destination: '/page/scholarships/create/external', // Redirect to the create page
-        },
-        {
           source: '/page/scholarships/detail/:id',
           destination: '/scholarships/[id]', // Dynamic route for detail page
         },
