@@ -1,4 +1,4 @@
-
+"use client";
 import AdminComponent from './admins';
 const AdminPage = () => {
   return (
