@@ -8,6 +8,10 @@ const nextConfig = {
           destination: '/page/scholarships', // Redirect to the scholarships page
         },
         {
+          source: '/page/application/create/internal',
+          destination: '/page/application/create/internal', // Redirect to the scholarships page
+        },
+        {
           source: '/page/scholarships/detail/:id',
           destination: '/scholarships/[id]', // Dynamic route for detail page
         },
